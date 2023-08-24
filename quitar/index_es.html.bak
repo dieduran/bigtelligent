@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIGTELLIGENT :: Data intelligence</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body> 
+    <header class="header">
+      <img class="bg" src="images/bg.svg" alt="" />
+      <div class="menu container">
+        <a href="#home" class="logo">BIGTELLIGENT</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="images/menu.png" class="menu-icono" alt=""""></label
+        >
+        <nav class="navbar">
+          <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="index.html">English</a></li>
+            <li>           <!-- <i class='bx bxs-sun' ></i> -->
+              <i id="botonDark" class='bx bxs-moon botonDark' ></i>
+            </li> 
+          </ul>
+        </nav>
+      </div>
+      <div class="header-content container">
+        <div class="header-info">
+          <div class="header-txt">
+            <h1>Expertos en soluciones de datos</h1>
+            <p>
+              Somos un equipo de profesionales especialistas en datos, que formó BIGTELLIGENT para darle a nuestros clientes confiabilidad en el uso de la información que tienen a disposición como resultado del negocio. <br><br>
+
+              Ofrecemos desarrollos personalizados para integración y movimiento de datos, incluídos la implementación y mantenimiento de los ambientes donde se apoyan.<br><br>
+
+              Nos especializamos en productos de plataforma Microsoft, On-Premises y Cloud. Trabajamos en las herramientas Azure Data Factory, Power BI, SQL Server, Integration Services, Analysis Services, Power Platform, Reporting Services y TimeXtender así como soluciones SQL server en cloud (Managed Instancies, Azure SQL databases) y on premises. <br><br>
+            </p>
+          </div>
+          <div class="header-img">
+            <img src="images/imagen1.svg" alt="" />
+          </div>
+          </div>
+        <a href="#" class="btn-1">Volver</a>
+      </div>
+    </header>
+
+      <section class="nosotros" >
+        <a name="nosotros"></a>
+        <img class="bg-2" src="images/bg-2.svg" alt="" >
+        <div class="nosotros-info container">
+            <div class="nosotros-img">
+                <img src="images/imagen2.svg" alt="" />
+            </div>
+            <div class="header-content container">
+              <div class="header-info">
+                <div  class="nosotros-txt">
+                  <p>
+                  Tenemos amplia experiencia en Alta Disponibilidad y Disaster Recovery, diseñados en distintas tecnologías.<br><br>
+      
+                  Diseñamos Arquitectura de datos, planificamos y desarrollamos soluciones en ámbitos que incluyen Integración, Inteligencia de Negocio y Big data.<br><br>
+      
+                  Planificamos y diseñamos procesos de migración, ya sea en entornos simples o complejos, con múltiples orígenes o destinos.<br><br>
+      
+                  Asesoramos a nuestros clientes en marcos de trabajo como ITIL y Gobierno de Datos.
+                  </p>
+              </div>
+            </div>
+            <a href="#" class="btn-1">Volver</a>
+        </div>
+      </section>
+      <!-- comentario -->
+      <main class="products container">
+        <a name="servicios" ></a>
+        <h2>Servicios</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+          ratione voluptatem reiciendis aut commodi totam iusto soluta deserunt
+          nulla quae numquam quod voluptatibus eligendi quis consequatur
+          excepturi nam quas atque?
+        </p>
+        <div class="product-info">
+            <div class="product">
+                <img src="images/int_negocio.svg" alt="">
+                <h3>Inteligencia de negocio</h3>
+                <p>
+                  <li>■ Diseño de modelos de datos para Inteligencia de negocio</li>
+                  <li>■ Creación de reportes y dashboard en Power Bi</li>
+                </p>
+            </div>
+            <div class="product">
+                <img src="images/integracion.svg" alt="">
+                <h3>Integración y movimiento de datos</h3>
+                <p>
+                  <li>■ Diseño y solución de paquetes de integración</li>
+                  <li>■ Desarrollo de integraciones Batch y real time</li>
+                  <li>■ SSIS, ADF, Data Bricks</li>
+                </p>
+            </div>
+            <div class="product">
+              <img src="images/automatizacion.svg" alt="">
+              <h3>Automatización de datos</h3>
+              <p>
+                <li>■ Automatización de procesos de negocio y carga de datos</li>
+                <li>■ Automatización de procesos de inteligencia de negocio</li>
+                <li>■ Automatización de movimientos de datos</li>
+              </p>
+            </div>
+            <div class="product">
+              <img src="images/disenio.svg" alt="">
+              <h3>Diseño, administración y mantenimiento de bases de datos SQL Server</h3>
+              <p>
+                <li>■ Diseño de Solución </li>
+                <li>■ Estabilización y mantenimiento</li>
+                <li>■ Monitoreo y alertas</li>
+                <li>■ Capacitación continua</li>
+                <li>■ Desarrollo de Arquitecturas de Alta disponibilidad y Disaster Recovery</li>
+              </p>
+            </div>
+            <div class="product">
+              <img src="images/arquitectura.svg" alt="">
+              <h3>Arquitectura de datos</h3>
+              <p>
+                <li>■ Diseño de Base de datos y data warehouse, OLTP, OLAP y ODS</li>
+                <li>■ Diseño de movimiento de datos customizable a las necesidades de negocio</li>
+                <li>■ Diseño de soluciones en cloud</li>
+                <li>■ Soluciones de datos soportadas en Gobierno de datos </li>
+              </p>
+            </div>
+            <div class="product">
+              <img src="images/consultoria.svg" alt="">
+              <h3>Consultoria</h3>
+              <p>
+                <li>■ Capacitación en tecnología</li>
+                <li>■ Capacitación en metodologías y buenas prácticas</li>
+                <li>■ Consultoría en Gobierno de datos</li>
+              </p>
+            </div>
+          </div>
+          <a href="#" class="btn-1">Volver</a>
+        </main>
+      <!-- seccion horario     -->
+      <main class="products container tecnologias-container">
+        <a name="tecnologias" ></a>
+        <h2>Tecnologias</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+          ratione voluptatem reiciendis aut commodi totam iusto soluta deserunt
+          nulla quae numquam quod voluptatibus eligendi quis consequatur
+          excepturi nam quas atque?
+        </p>
+      <section class="info container">
+        <div class="info-1">
+          <img src="images/logo_sql.svg" alt="" />
+        </div>
+        <div class="info-1">
+          <img src="images/logo_aws.png" alt="" />
+        </div>
+        <div class="info-1">
+          <img src="images/logo_Google-Cloud.png" alt="" />
+        </div>
+        <div class="info-1">
+          <img src="images/log_powerplat.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <a name="contacto"></a>
+      <div class="footer-links container">
+            <div class="link">
+                <h3>BIGTELLIGENT</h3>
+                <div class="socials">
+                    <img src="images/s1.svg" alt="">
+                    <img src="images/s2.svg" alt="">
+                    <img src="images/s3.svg" alt="">
+                    <img src="images/s4.svg" alt="">
+                </div>
+            </div>
+            <div class="link">
+                <h3>Contáctenos</h3>
+                <li><a href="https://wa.me/+15619512822">+15619512822</a></li>
+                <li><a href="mailto:contact@bigtelligent.net">contact@bigtelligent.net</a></li>
+        </div>
+    </footer>
+
+
+  </body>
+</html>
